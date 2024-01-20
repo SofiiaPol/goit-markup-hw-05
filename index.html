@@ -492,10 +492,11 @@
         </div>
       </div>
     </footer>
+
     <div class="backdrop">
       <div class="modal">
         <button type="button" class="close-button">
-          <svg class="backdrop-icon" width="8" heght="8">
+          <svg class="modal-close-icon" width="8" height="8">
             <use
               href="./images/icons.svg#icon-modal-close"
               class="button-icon"
@@ -558,6 +559,17 @@
               placeholder="Text input"
               id="user-text"
             />
+          </div>
+          <div>
+            <label class="checkbox-privacy">
+              <input
+                type="checkbox"
+                name="privacy"
+                value="I accept the terms and conditions of the Privacy Policy"
+              />
+              I accept the terms and conditions of the
+              <a href=""><span class="privacy">Privacy Policy</span></a>
+            </label>
           </div>
           <button type="submit" class="modal-button">Send</button>
         </form>

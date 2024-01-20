@@ -466,15 +466,9 @@ img {
   height: 100%;
   position: fixed;
   top: 0;
+  left: 0;
+  z-index: 999;
   background-color: rgba(46, 47, 66, 0.4);
-}
-
-.modal-field {
-  margin-bottom: 4px;
-}
-
-.modal-input-icon {
-  position: relative;
 }
 
 .modal {
@@ -489,6 +483,7 @@ img {
 }
 
 .close-button {
+  display: flex;
   margin-left: auto;
   position: absolute;
   top: 24px;
@@ -496,6 +491,17 @@ img {
   width: 24px;
   height: 24px;
   border-radius: 50%;
+  background-color: #e7e9fc;
+}
+
+.modal-close-icon {
+  display: flex;
+  margin-left: auto;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 8px;
+  height: 8px;
 }
 
 .modal-titel {
@@ -509,6 +515,14 @@ img {
   size: 16px;
   line-height: 24px;
   color: #2e2f42;
+}
+
+.modal-field {
+  margin-bottom: 4px;
+}
+
+.modal-input-icon {
+  position: relative;
 }
 
 .modal-input {
@@ -546,6 +560,11 @@ img {
   color: #8e8f99;
 }
 
+.privacy {
+  color: #4d5ae5;
+  text-decoration: underline;
+}
+
 .button-icon {
   width: 8px;
   height: 8px;
@@ -575,6 +594,10 @@ img {
   gap: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
+/* .checkbox-privacy {
+  gap: 24px;
+} */
 
 .modal-icon {
   position: absolute;
