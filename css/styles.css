@@ -527,9 +527,6 @@ img {
 
 .modal-form {
   padding: 0 24px;
-}
-
-.modal-list {
   display: flex;
   width: 100%;
   flex-direction: column;
