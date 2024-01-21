@@ -494,7 +494,7 @@
       </div>
     </footer>
 
-    <div class="backdrop" hidden>
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="close-button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -554,23 +554,22 @@
             </div>
             <div>
               <label for="user-text" class="modal-label"> Comment</label>
-              <input
-                type="text"
-                name="user-text"
-                class="modal-input"
+              <textarea
+                class="modal-input modal-input-text"
                 placeholder="Text input"
                 id="user-text"
-              />
+              ></textarea>
             </div>
             <div>
               <label class="checkbox-privacy">
                 <input
                   type="checkbox"
                   name="privacy"
+                  class="checkbox-privacy-input"
                   value="I accept the terms and conditions of the Privacy Policy"
                 />
-                I accept the terms and conditions of the
-                <a href=""><span class="privacy">Privacy Policy</span></a>
+                I accept the terms and conditions of the&nbsp;
+                <span class="privacy"><a href="">Privacy Policy</a></span>
               </label>
             </div>
           </div>
