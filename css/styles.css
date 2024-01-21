@@ -467,6 +467,7 @@ img {
   left: 0;
   z-index: 999;
   background-color: rgba(46, 47, 66, 0.4);
+  /* visibility: hidden; */
 }
 
 .modal {
@@ -677,4 +678,8 @@ img {
 
 .subscribe-icon {
   margin-left: 16px;
+}
+
+.is-open {
+  visibility: visible;
 }
