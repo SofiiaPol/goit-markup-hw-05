@@ -645,8 +645,7 @@ img {
   margin-bottom: 24px;
 }
 
-.checkbox-privacy {
-  display: flex;
+.custom-checkbox {
   width: 100%;
   color: #8e8f99;
   font-size: 12px;
@@ -678,7 +677,7 @@ img {
 }
 
 .visually-hidden[type="checkbox"]:checked
-  + .checkbox-privacy
+  + .custom-checkbox
   .checkbox-privacy-input {
   background-color: #404bbf;
   border: none;
