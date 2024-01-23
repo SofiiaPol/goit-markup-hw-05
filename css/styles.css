@@ -324,9 +324,6 @@ img {
   width: 40px;
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition-property: #4d5ae5;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .icon-a:hover,
@@ -536,7 +533,6 @@ img {
 }
 
 .modal-form {
-  /* padding: 0 24px; */
   display: flex;
   width: 100%;
   flex-direction: column;
