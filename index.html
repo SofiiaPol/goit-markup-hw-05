@@ -564,13 +564,18 @@
             <input
               type="checkbox"
               name="user-privacy"
-              class="checkbox-privacy-input visually-hidden"
+              class="visually-hidden"
               value="true"
               id="user-privacy"
             />
             <label for="user-privacy" class="checkbox-privacy">
+              <span class="checkbox-privacy-input">
+                <svg class="checkbox-svg" width="10" height="8">
+                  <use href="./images/icons.svg#icon-chexbox"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the&nbsp;
-              <span class="privacy"><a href="">Privacy Policy</a></span>
+              <a href="" class="privacy">Privacy Policy</a>
             </label>
           </div>
           <button type="submit" class="modal-button">Send</button>
